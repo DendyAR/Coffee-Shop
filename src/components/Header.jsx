@@ -1,6 +1,6 @@
 import {FaSignInAlt, FaSignOutAlt, FaSearch, FaUser} from "react-icons/fa";
 import {Link} from "react-router-dom"
-import img1 from "../public/coffee1.svg";
+import img1 from "../img/coffee1.svg";
 
 export default function Header() {
   return (

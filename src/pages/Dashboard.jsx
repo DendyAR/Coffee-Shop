@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import FavoriteProducts from "../components/FavoriteProducts";
-import img1 from "../public/imageBeef.svg";
+import img1 from "../img/imageBeef.svg";
 
 const Dashboard = () => {
   return (

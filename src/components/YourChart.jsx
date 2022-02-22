@@ -1,5 +1,5 @@
-import img1 from "../public/order1.svg"
-import img2 from "../public/order2.svg"
+import img1 from "../img/order1.svg"
+import img2 from "../img/order2.svg"
 
 export default function YourChart() {
   return (

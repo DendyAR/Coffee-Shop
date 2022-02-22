@@ -2,7 +2,7 @@ import {FaFacebookF} from "react-icons/fa"
 import {AiOutlineInstagram} from "react-icons/ai"
 import {BsTwitter} from "react-icons/bs"
 
-import img1 from "../public/coffee1.svg";
+import img1 from "../img/coffee1.svg";
 export default function Footer() {
   return (
     <footer className="footer">
