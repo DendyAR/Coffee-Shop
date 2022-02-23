@@ -1,0 +1,250 @@
+.container-fluid {
+    margin-top: -55px;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("../img/bg-full.jpg");
+    background-repeat: no-repeat;
+  background-size: auto;
+  }
+  
+  .container-fluid span {
+    position: absolute;
+  width: 316px;
+  height: 94px;
+  left: 150px;
+  top: 150px;
+  
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  
+  color: #FFFFFF;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .card-order {
+  position: relative;
+  width: 280px;
+  height: 450px;
+  margin-top: 180px;
+  margin-left: 200px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  }
+  
+  .card-order h1 {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 40px;
+  width: 250px;
+  height: 40px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  /* identical to box height */
+  
+  
+  color: #362115;
+  }
+  
+  .card-item-order {
+    margin: 40px 30px 30px;
+    width: 200px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-order p {
+  width: 280px;
+  height: 0px;
+  left: 197px;
+  top: 775px;
+  opacity: 0.3;
+  border: 0.5px solid #000000;
+  }
+  
+  
+  .li-item-order {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .li-item-order ul {
+  width: 105px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #362115;
+  text-align: justify;
+  }
+  
+  .total {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: justify;
+  margin-left: 14px;
+  font-size:10px;
+  font-weight: bolder;
+  }
+  
+  .total li {
+   margin-top: -30px;
+    width: 180px;
+  }
+  
+  
+  .card-item-right span {
+    margin-left: 500px;
+    margin-top: 70px;
+    font-size: 32px;
+  }
+  
+  .li-item-order2 ul {
+  width: 400px;
+  height: 180px;
+  margin-top: 180px;
+  margin-left: 25px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  }
+  
+  .li-item-order2 h5 {
+  width: 200px;
+  height: 38px;
+  text-align: justify;
+  margin: 20px 20px 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 10px;
+  
+  color: #000000;
+  }
+  
+  .li-item-order2 p {
+    width: 300px;
+    height: 48px;
+    text-align: justify;
+    margin: 10px 10px 10px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    
+    color: #000000;
+    }
+  
+  .li-item-order2 h1 {
+    text-align: justify;
+    width: 300px;
+    height: 38px;
+    margin: 20px 13px 13px 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 50px;
+    
+    color: #000000;
+    }
+    
+  .li-item-order2 h4 {
+  width: 90%;
+  height: 0px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin: 10px 10px 10px;
+  
+  opacity: 0.1;
+  border: 0.5px solid #000000;
+  
+  }
+  
+  .card-item-right2 span {
+    margin-left: 480px;
+    margin-top: 300px;
+    font-size: 22px;
+  }
+  
+  
+  .option-item-order3 {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  width: 350px;
+  height: 160px;
+  margin-top: 50px;
+  margin-left: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  }
+  
+  .input-item {
+      display: grid;
+      width: 30px;
+      margin-top: 30px;
+      margin-left: 30px;
+  }
+  .input-item input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9F9F9F;
+    box-sizing: border-box;
+  }
+
+  .label-item {
+      display: grid;
+      justify-items: left;
+      margin-top: 25px;
+  }
+
+  .label-item h1 {
+width: 250px;
+height: 0px;
+opacity: 0.3;
+border: 0.1px solid #000000;
+
+  }
+
+  .icon-card {
+    width: 25px;
+    height: 20px;
+    
+    background: #F47B0A;
+    border-radius: 5px;
+  }
+
+  .btn-confirm {
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: -200px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+border: none;
+color: #FFFFFF;
+    background: #6A4029;
+    box-shadow: 0px 10px 20px rgba(20, 20, 20, 0.4);
+    border-radius: 10px;
+  }

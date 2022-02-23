@@ -55,16 +55,22 @@ export default function YourChart() {
           <span>
             <strong>Payment Method</strong>
           </span>
-          <div className="li-item-order3">
-            
+          <div className="option-item-order3">
+            <div className="input-item">
               <input type="radio" value="" /> 
-              <label> <MdPayment/> Card</label>
               <input type="radio" value="" /> 
-              <label> <MdPayment/> Bank account</label>
               <input type="radio" value="" /> 
-              <label> <MdPayment/> Cash on delivery</label>
-            
+            </div>
+            <div className="label-item">
+              <label> <MdPayment className="icon-card"/> Card</label>
+              <h1> </h1>
+              <label> <BsBank2 className="icon-card"/> Bank account</label>
+              <h1> </h1>
+              <label> <AiFillCar className="icon-card"/> Cash on delivery</label>
+              <h1> </h1>
+            </div>
           </div>
+          <button className="btn-confirm">Confirm and Pay</button>
         </div>
       </div>
     </div>

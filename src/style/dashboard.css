@@ -1,0 +1,196 @@
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    padding: 0 20px;
+  }
+  
+  .main{
+    display: flex;
+    justify-content: space-between;
+  }
+  .section-1{
+    align-items: center;
+    margin-top: -60px;
+    width: 500px;
+    border-right:0.5px solid #9F9F9F;
+    margin-right: auto;
+  }
+  
+  .p-1 {
+    margin-left: 90px;
+    width: 320px;
+  }
+  
+  .content ul{
+    display: flex;
+    margin: 12px 100px 100px 100px;
+    justify-content: space-between;
+  }
+  
+  .promo-css h1 {
+  margin-top: 13px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #6A4029;
+  }
+  
+  .promo-css p {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  
+  color: #000000;
+  }
+  
+  .card2 {
+  position: absolute;
+  width: 284px;
+  height: 400px;
+  left: 108px;
+  top: 255px;
+  background: #000000;
+  border-radius: 20px;
+  }
+  
+  .card1 {
+  position: absolute;
+  width: 284px;
+  height: 338px;
+  left: 132.01px;
+  top: 285px;
+  background: #895537;
+  border-radius: 20px;
+    }
+  
+  .card3 {
+    margin: 30px 32px 42px 48px;
+    position: relative;
+    width: 290px;
+    height: 490px;
+    background:#FFCB65;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .card3 img {
+    margin-top: 50px;
+    border-radius: 50%;
+  }
+  
+  .card3 h2 {
+  margin-top: 21px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 101.34%;
+  /* or 22px */
+  text-align: center;
+  color: #000000;
+  }
+  
+  .card3 h3 {
+  margin-top: 13px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 101.34%;
+  /* or 22px */
+  text-align: center;
+  color: #000000;
+  }
+  
+  .card3 p {
+  margin-top: 12px;
+  margin-left: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 101.34%;
+  /* or 14px */
+  text-align: center;
+  color: #000000;
+  }
+  
+  .card3 h1 {
+  width: 166px;
+  height: 33px;
+  margin-left: 60px;
+  margin-top: 13px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 101.34%;
+  /* or 33px */
+  
+  text-align: center;
+  
+  color: #000000;
+  }
+  
+  .card3 h6 {
+  margin-top: 60px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 101.34%;
+  /* or 12px */
+  text-align: center;
+  color: #000000;
+  }
+  
+  .btn-apply {
+  width: 284px;
+  height: 50px;
+  left: 80px;
+  top: 840px;
+  background: #6A4029;
+  border-radius: 20px;
+  }
+  
+  .btn-span {
+  width: 125px;
+  height: 26px;
+  left: 159px;
+  top: 859px;
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  /* identical to box height */
+  color: #FFFFFF;
+  }
+  
+  .trems-and-conditions{
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .trems-and-conditions ul{
+    font-size: 10px;
+    text-align: justify;
+  }
+  
+  .br-line {
+  width: 284.02px;
+  height: 0px;
+  left: 80px;
+  top: 643.5px;
+  border: 1px dashed #000000;
+  }
+  
