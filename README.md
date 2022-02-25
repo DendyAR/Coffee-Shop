@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Coffee Shop App
+Get Coffee online now!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Requirement
+1. CSS for Styling 
+2. ReactJS
+3. React-icons
 
-## Available Scripts
+## Pages
+1. Dashboard
+2. Login
+3. Register
 
-In the project directory, you can run:
+## Components
+ 1.Products
+ 2.Favorites Products
+ 3.Your Cart
+ 
+ 
+## Screen Shoot
+|Dekstop|
+|-|-|
+|Dashboard||
+|
 
-### `npm start`
+|
+|Dashboard After Login||
+|![Desktop2](https://user-images.githubusercontent.com/49930719/122062582-be786e80-ce19-11eb-9161-f467cf6cc79e.PNG)|# Coming Soon #|
+|Login Page||
+|![Dekstop](https://user-images.githubusercontent.com/49930719/121777825-35b1c680-cbbe-11eb-82d4-f2c73fece9b1.PNG)|# Coming Soon #|
+|Register Page||
+|![Dekstop](https://user-images.githubusercontent.com/49930719/121777852-51b56800-cbbe-11eb-827e-ea3079c34fb7.PNG)|# Coming Soon #|
+|Forgot Password||
+|![Dekstop](https://user-images.githubusercontent.com/49930719/121778015-1b2c1d00-cbbf-11eb-8229-b72c9a87a937.PNG)|![Mobile](https://user-images.githubusercontent.com/49930719/121778078-69412080-cbbf-11eb-9c10-989f82af3522.PNG)|
+|Articles||
+|![Dekstop](https://user-images.githubusercontent.com/49930719/121778119-b1604300-cbbf-11eb-9079-0b698d318388.PNG)|![Mobile](https://user-images.githubusercontent.com/49930719/121778129-c210b900-cbbf-11eb-9425-e7baac6c0eac.PNG)|
+|Profile||
+|Update Profile||
+|![Dekstop](https://user-images.githubusercontent.com/49930719/122579247-ecaab800-d07e-11eb-9ef3-d7edcc55f87d.PNG)|![Mobile](https://user-images.githubusercontent.com/49930719/122579393-0f3cd100-d07f-11eb-9137-e81c1e832da8.PNG)|
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Folder Structure
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ├── node_modules             
+    ├── public
+    │   ├── images //storage for image component in UI
+    ├── src
+    │   ├── components             
+    │   ├── pages   
+    │       ├── Private
+    │       ├── Public
+    │   ├── Redux   
+    │       ├── Actions
+    │       ├── Reducers
+    │       ├── store.js
+    │   ├── styles
+    |   ├── tests  
+    |   └── App.js
+    ├── styles
+    │   ├── _activity.scss            
+    │   ├── _auth.scss
+    │   ├── _dashboard.scss
+    │   ├── profile.scss            
+    │   ├── global.scss
+    |   ├── sidebar.scss
+    └── .env
