@@ -4,6 +4,7 @@ Get Coffee online now!
 ### 
 Web app ->
 || https://affectionate-ptolemy-63f37e.netlify.app/ ||
+Not ! Api cann't access with crross
 
 ## Requirement
 1. CSS for Styling 
