@@ -12,13 +12,7 @@ body {
   height: 100vh;
 }
 
-
-
-
-
-/* maincss end */
-
-@media screen and (min-width: 800px) {
+@media all and (max-width: 1024px) {
   .container {
     width: 100%;
   max-width: 100%;
@@ -26,6 +20,14 @@ body {
   padding: 0 20px;
   text-align: center;
   }
+}
+
+
+
+/* maincss end */
+
+@media screen and (min-width: 800px) {
+  
 }
 
 
