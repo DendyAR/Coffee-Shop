@@ -22,7 +22,7 @@ Get Coffee online now!
 |-|-|
 |Dashboard||
 |
-https://github.com/DendyAR/Coffee-Shop/tree/main/img-ss-result
+(https://github.com/DendyAR/Coffee-Shop/blob/main/img-ss-result/homepage.PNG?raw=true)
 |
 |Dashboard After Login||
 |![Desktop2](https://user-images.githubusercontent.com/49930719/122062582-be786e80-ce19-11eb-9161-f467cf6cc79e.PNG)|# Coming Soon #|
