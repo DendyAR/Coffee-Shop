@@ -6,7 +6,7 @@ export default function FavoriteProducts() {
   useEffect(() => {
     async function fetchData() {
       const data = await fetch(
-        `http://api.tvmaze.com/search/shows?q=`
+        `http://api.tvmaze.com/search/shows?q=girls`
       ).then((res) => res.json());
     console.log(data);
       setItem(data);
