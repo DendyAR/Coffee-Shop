@@ -2,23 +2,17 @@ import { useState, useEffect } from "react";
 
 export default function FavoriteProducts() {
     const [item, setItem] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [search, setSearch] = useState(null);
 
   useEffect(() => {
     async function fetchData() {
-      setLoading(false);
       const data = await fetch(
-        `http://api.tvmaze.com/search/shows?q=${search}`
+        `http://api.tvmaze.com/search/shows?q=`
       ).then((res) => res.json());
     console.log(data);
       setItem(data);
     }
-    setTimeout(() => {
-      setLoading(true);
-      fetchData();
-    }, 1500);
-  }, [search]);
+    fetchData()
+  }, []);
 
   return (
     <>{item.map((value)=> {

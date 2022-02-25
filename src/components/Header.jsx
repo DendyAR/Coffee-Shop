@@ -1,4 +1,4 @@
-import {FaSignInAlt, FaSignOutAlt, FaSearch, FaUser} from "react-icons/fa";
+import {FaSignInAlt,FaSearch, FaUser} from "react-icons/fa";
 import {Link} from "react-router-dom"
 import img1 from "../img/coffee1.svg";
 
